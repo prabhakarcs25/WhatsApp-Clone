@@ -1,13 +1,9 @@
 import "./App.css";
-
+import Messenger from "./components/Messenger";
 function App() {
-  return (
-    <>
-      <div>ijgo</div>
-
-      <div>hello 2 this is 2nd version</div>
-    </>
-  );
+  return <>
+  <Messenger/>
+  </>;
 }
 
 export default App;
