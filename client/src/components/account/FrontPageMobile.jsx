@@ -1,6 +1,13 @@
 //
 
-import { Typography, Box, styled, TextField,Button } from "@mui/material";
+import {
+  Typography,
+  Box,
+  styled,
+  TextField,
+  Button,
+  Link,
+} from "@mui/material";
 import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
@@ -73,24 +80,46 @@ const FrontPageMobile = ({ onClick }) => {
             }}
           />
         </Box>
-        <Button 
-            style={{
-              backgroundColor: "#017561",
-              border: "none",
-              borderRadius: "20px",
-              color: "white",
-              height: "35px",
-              width: "80px",
-              margin: "15px 0 0 0",
-              textTransform: "unset",
-            }}
-            href="https://mui.com/"
-          >
-            Next
-          </Button>
-          <Typography sx={{color:'#017561', fontFamily:'inherit', fontWeight:'500', lineHeight:'50px'}}>
-            Link with QR code
-          </Typography>
+        <Button
+          style={{
+            backgroundColor: "#017561",
+            border: "none",
+            borderRadius: "20px",
+            color: "white",
+            height: "35px",
+            width: "80px",
+            margin: "15px 0 0 0",
+            textTransform: "unset",
+          }}
+          href="https://mui.com/"
+        >
+          Next
+        </Button>
+        <Typography
+          sx={{
+            color: "#017561",
+            fontFamily: "inherit",
+            fontWeight: "500",
+            lineHeight: "50px",
+          }}
+        >
+          Link with QR code
+        </Typography>
+        <Typography
+          sx={{
+            mt: 12,
+            fontSize: "30px",
+            fontFamily: "inherit",
+            fontWeight: "300",
+          }}
+        >
+          Tutorial
+        </Typography>
+        <Typography>
+          <Link sx={{ color: "#017561", fontSize: "14px", lineHeight: "40px" }}>
+            Need help to get started.?
+          </Link>
+        </Typography>
       </OuterLayer>
     </>
   );

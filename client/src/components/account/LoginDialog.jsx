@@ -8,7 +8,7 @@ const DialogStyled = {
   marginTop: "12.5%",
   width: "65%",
   maxWidth: "100%",
-  maxHeight: "100%",
+  // maxHeight: "100%",
   boxShadow: "none",
   // overflow: "hidden",
   opacity: "0.9",
